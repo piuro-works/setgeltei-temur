@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Noto Serif KR", "Georgia", "Times New Roman", serif;
+  background: radial-gradient(circle at top left, #1f2633, #0f1218 42%, #080b12);
+  color: #eef1f7;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.hero {
+  padding: 1rem 0 1.4rem;
+  border-bottom: 1px solid #5f6370;
+}
+
+.hero h1 {
+  margin: 0 0 .2rem;
+  letter-spacing: .02em;
+}
+
+.subtitle {
+  margin: 0 0 .75rem;
+  color: #d7dce8;
+  font-size: 1.05rem;
+}
+
+.overline {
+  font-size: .8rem;
+  letter-spacing: .18em;
+  opacity: .75;
+  text-transform: uppercase;
+  margin: 0 0 .5rem;
+}
+
+main { line-height: 1.65; }
+
+.episode-list {
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.episode-list li {
+  list-style: none;
+  padding: .65rem .4rem;
+  border-bottom: 1px dashed #4c5260;
+}
+
+.episode-list a {
+  color: #d9def0;
+  text-decoration: none;
+}
+
+.episode-list a:hover {
+  text-decoration: underline;
+}
+
+.episode-page {
+  background: #101723;
+  border: 1px solid #2f3540;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.episode-title {
+  margin-top: 0;
+}
+
+.episode-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: .7rem;
+  margin: .5rem 0 1.4rem;
+}
+
+.episode-nav a {
+  color: #c5ccdf;
+  text-decoration: none;
+  border: 1px solid #5f687a;
+  border-radius: 8px;
+  padding: .4rem .7rem;
+}
+
+.episode-nav-bottom {
+  margin-top: 1.3rem;
+}
+
+.episode-nav .disabled-nav {
+  color: #9da5b8;
+  border: 1px solid #434a57;
+  border-radius: 8px;
+  padding: .4rem .7rem;
+  display: inline-block;
+  opacity: .75;
+}
+
+.copyright-footer {
+  margin-top: .8rem;
+  color: #9ca3b3;
+  font-size: .84rem;
+  border-top: 1px dashed #4c5260;
+  padding-top: .7rem;
+}
+
+.copyright-footer p {
+  margin: .1rem 0;
+}
+
+.copyright-license {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+}
+
+.copyright-license .cc-icon {
+  width: 3rem;
+  height: auto;
+  display: inline-block;
+}
+
+.copyright-license .cc-label {
+  font-size: .84rem;
+  color: #9ca3b3;
+  white-space: nowrap;
+}
+
+.copyright-license .cc-link {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.ep-text {
+  background: #0b1019;
+  border-radius: 8px;
+  padding: 1rem;
+  white-space: pre-wrap;
+  font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  line-height: 1.75;
+}
+
+@media (max-width: 760px) {
+  .container { padding: 1rem .75rem 3rem; }
+  .episode-nav { flex-direction: column; }
+}
